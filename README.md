@@ -14,8 +14,8 @@ catkin_make the package and then follow these steps:
 
    
        material Gazebo/aruco
-      {
-        receive_shadows on
+         {
+           receive_shadows on
       
         technique
         {
