@@ -11,7 +11,9 @@ catkin_make the package and then follow these steps:
 
 2. The aruco_5x5_100_1_rotated.png image attached with the package should be pasted inside usr/share/gazebo-11/media/materials/textures (Ubuntu 20.04) which can be accessed using nautilus.
    Then go ahead and add this code to usr/share/gazebo-11/media/materials/scrips:
-    material Gazebo/aruco
+
+   
+       material Gazebo/aruco
       {
         receive_shadows on
       
@@ -32,9 +34,9 @@ catkin_make the package and then follow these steps:
         }
        }
 
-3. roslaunch spawn.launch
-4. run detectaruco.py inside scripts
-5. run runrobot.py inside scripts followed by the x and y coordinate you want to move the robot to
+4. roslaunch spawn.launch
+5. run detectaruco.py inside scripts
+6. run runrobot.py inside scripts followed by the x and y coordinate you want to move the robot to
    example: python runrobot.py 2 3
 
   
