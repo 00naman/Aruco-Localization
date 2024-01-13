@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- launch_world.launch -->
+<launch>
+  <!-- Launch the Gazebo simulation with the specified world file -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(find m2wr_description)/worlds/test.world"/>
+  </include>
+</launch>
