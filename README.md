@@ -35,6 +35,5 @@ catkin_make the package and then follow these steps:
        }
 
 4. Run spawn.launch , detectaruco.py and runrobot.py in that order 
-
-  
+5. Visualize the odometery published in rviz under aruco/odometery
   
