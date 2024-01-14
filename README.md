@@ -34,10 +34,7 @@ catkin_make the package and then follow these steps:
         }
        }
 
-4. roslaunch spawn.launch
-5. run detectaruco.py inside scripts
-6. run runrobot.py inside scripts followed by the x and y coordinate you want to move the robot to.
-   example: python runrobot.py 2 3
+4. Run spawn.launch , detectaruco.py and runrobot.py in that order 
 
   
   
