@@ -7,7 +7,7 @@ Seamless integration for accurate positioning and autonomous navigation.
 catkin_make the package and then follow these steps:
 
 1. This code uses an older version of opencv-contrib-python so go ahead and
-   pip install opencv-contrib-python==4.6.0.66
+       pip install opencv-contrib-                python==4.6.0.66
 
 2. The aruco_5x5_100_1_rotated.png image attached with the package should be pasted inside usr/share/gazebo-11/media/materials/textures (Ubuntu 20.04) which can be accessed using nautilus.
    Then go ahead and add this code to usr/share/gazebo-11/media/materials/scrips:
