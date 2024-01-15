@@ -39,6 +39,7 @@ catkin_make the package and then follow these steps:
        }
 
 4. Scripts:
+
        roslaunch m2wr_description spawn.launch
        python detect_aruco.py
        python runrobot.py <x> <y>
