@@ -39,9 +39,9 @@ catkin_make the package and then follow these steps:
        }
 
 4. Scripts:
-                 roslaunch m2wr_description spawn.launch
-                 python detect_aruco.py
-                 python runrobot.py <x> <y>
+	   roslaunch m2wr_description spawn.launch
+	   python detect_aruco.py
+	   python runrobot.py <x> <y>
 
 
 6. Visualize the odometery published in rviz under aruco/odometery
