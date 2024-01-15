@@ -13,8 +13,8 @@ catkin_make the package and then follow these steps:
  
 
 
-2. The aruco_5x5_100_1_rotated.png image attached with the package should be pasted inside usr/share/gazebo-11/media/materials/textures (Ubuntu 20.04) which can be accessed using nautilus.
-   Then go ahead and add this code to usr/share/gazebo-11/media/materials/scrips:
+2. The **aruco_5x5_100_1_rotated.png** image should be pasted inside **usr/share/gazebo-11/media/materials/textures** (Ubuntu 20.04) which can be accessed using nautilus.
+   Then go ahead and add this code to **usr/share/gazebo-11/media/materials/scrips**:
 
    
        material Gazebo/aruco
@@ -38,6 +38,11 @@ catkin_make the package and then follow these steps:
         }
        }
 
-4. Run spawn.launch , detectaruco.py and runrobot.py in that order 
-5. Visualize the odometery published in rviz under aruco/odometery
+4. Scripts:
+         roslaunch m2wr_description spawn.launch
+         python detect_aruco.py
+         python runrobot.py <x> <y>
+
+
+6. Visualize the odometery published in rviz under aruco/odometery
   
