@@ -1,7 +1,6 @@
 # Aruco-Localization
 
 ROS package to localize a robot using an aruco tag and then move it with respect to the frame of the camera positioned overhead.
-Seamless integration for accurate positioning and autonomous navigation.
 
 ## Usage
 catkin_make the package and then follow these steps:
