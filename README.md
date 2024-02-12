@@ -6,7 +6,7 @@ Seamless integration for accurate positioning and autonomous navigation.
 ## Usage
 catkin_make the package and then follow these steps:
 
-1. This code uses an older version of opencv-contrib-python so go ahead and
+1. This code uses an older version of opencv-contrib-python
 
        pip install opencv-contrib-python==4.6.0.66
 
@@ -42,8 +42,8 @@ catkin_make the package and then follow these steps:
 
        roslaunch m2wr_description spawn.launch
    After giving executable permissions to both the files :-
-       ```rosrun m2wr_description detect_aruco.py
-       rosrun m2wr_description runrobot.py <x> <y>```
+       ```rosrun m2wr_description detect_aruco.py```
+       ```rosrun m2wr_description runrobot.py <x> <y>```
 
 
 6. Visualize the odometery published in rviz under aruco/odometery
